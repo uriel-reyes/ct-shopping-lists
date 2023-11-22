@@ -2,15 +2,38 @@
   <a href="https://commercetools.com/">
     <img alt="commercetools logo" src="https://unpkg.com/@commercetools-frontend/assets/logos/commercetools_primary-logo_horizontal_RGB.png">
   </a>
-  <b>Custom Application starter template</b>
 </p>
 
-A starter template to [develop Custom Applications](https://docs.commercetools.com/custom-applications/) for the Merchant Center.
+# Shopping Lists Management App
 
-# Installing the template
 
-Read the [Getting started](https://docs.commercetools.com/custom-applications/getting-started) documentation for more information.
+## Overview
+This application allows users to manage their shopping lists. It includes features such as viewing all shopping lists, viewing details of specific lists, and deleting lists. It uses the commercetools MC App Starter template.
 
-# Developing the Custom Application
+## Features
+- View a list of all shopping lists.
+- View details of a selected shopping list including line items.
+- Delete a specific shopping list.
 
-Learn more about [developing a Custom Application](https://docs.commercetools.com/custom-applications/development) and [how to use the CLI](https://docs.commercetools.com/custom-applications/api-reference/cli).
+## Technologies Used
+- React
+- Apollo Client (GraphQL)
+- commercetools UI Kit
+
+## Setup and Installation
+1. Clone the repository.
+2. Install dependencies:
+   ```npm install```
+3. Start the application:
+   ```yarn start```
+
+## Usage
+- The main page displays all shopping lists.
+- Click on a list to view its details.
+- Enter a list ID and use the buttons to view details or delete the list.
+
+## Contributing
+Contributions to this project are welcome. Please open an issue or submit a pull request for any features or fixes.
+
+## License
+[MIT License](LICENSE.md)
