@@ -24,7 +24,8 @@ This application allows users to manage their shopping lists. It includes featur
 1. Clone the repository.
 2. Install dependencies:
    ```npm install```
-3. Start the application:
+   ```yarn add @commercetools-frontend/ui-kit```
+4. Start the application:
    ```yarn start```
 
 ## Usage
